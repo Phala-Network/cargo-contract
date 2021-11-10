@@ -486,7 +486,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "cargo-contract"
+name = "cargo-pink"
 version = "0.15.0"
 dependencies = [
  "anyhow",

@@ -2,7 +2,7 @@
 members = [".", "metadata"]
 
 [package]
-name = "cargo-contract"
+name = "cargo-pink"
 version = "0.15.0"
 authors = ["Parity Technologies <admin@parity.io>"]
 build = "build.rs"
@@ -10,7 +10,7 @@ edition = "2018"
 
 license = "GPL-3.0"
 readme = "README.md"
-repository = "https://github.com/paritytech/cargo-contract"
+repository = "https://github.com/Phala-Network/cargo-pink"
 documentation = "https://docs.substrate.io/tutorials/v3/ink-workshop/pt1/"
 homepage = "https://www.parity.io/"
 description = "Setup and deployment tool for developing Wasm based smart contracts via ink!"

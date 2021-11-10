@@ -356,6 +356,7 @@ fn strip_exports(module: &mut Module) {
         section.entries_mut().retain(|entry| {
             matches!(entry.internal(), Internal::Function(_))
                 && (entry.field() == "call" || entry.field() == "deploy")
+                || entry.field().to_uppercase().starts_with("PINK_")
         })
     }
 }
